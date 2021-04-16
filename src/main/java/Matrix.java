@@ -25,6 +25,11 @@ public class Matrix {
         return matrix[0].length;
     }
 
+    /**
+     * converting a matrix to an array
+     *
+     * @return - matrix in the form of an array
+     */
     public double[][] toArray() {
         double[][] matrixCopy = matrix.clone();
         for (int i = 0; i < getWidth(); i++) {
